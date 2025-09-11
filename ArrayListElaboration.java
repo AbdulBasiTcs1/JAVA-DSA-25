@@ -10,5 +10,6 @@ public class ArrayListElaboration {
         arrayList.add("Grapes");
         System.out.println(arrayList);
         System.out.println(arrayList.get(1));
+        System.out.println("Array Lists");
     }
 }
