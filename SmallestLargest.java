@@ -2,7 +2,7 @@ import java.util.*;
 public class SmallestLargest{
 
     // this is the activity 1 of lab
-    
+
     public static void main(String[] Args){
         Scanner sc = new Scanner(System.in);
         int[] numbers = new int[10];
@@ -15,9 +15,11 @@ public class SmallestLargest{
         int largest = numbers[0];
 
         for (int i=0;i<numbers.length;i++){
+
             if (numbers[i]<smallest){
                 smallest=numbers[i];
             }
+            
             if (numbers[i]>largest){
                 largest=numbers[i];
             }
