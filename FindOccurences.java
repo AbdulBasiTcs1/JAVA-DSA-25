@@ -2,6 +2,9 @@
 import java.util.Scanner;
 
 public class FindOccurences {
+
+    // last lab task of lab on arrays 
+    
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] arr = new int[10];

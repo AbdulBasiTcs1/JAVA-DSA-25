@@ -1,5 +1,8 @@
 import java.util.*;
 public class SmallestLargest{
+
+    // this is the activity 1 of lab
+    
     public static void main(String[] Args){
         Scanner sc = new Scanner(System.in);
         int[] numbers = new int[10];
